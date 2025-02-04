@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Hero Section -->
+  <header class="bg-white py-12 text-center">
+    <h1 class="text-4xl font-bold text-gray-900">Benvenuto nel Mio Portfolio!</h1>
+    <p class="text-lg text-gray-600 mt-4">Una selezione dei miei lavori per mostrare competenze e creatività.</p>
+    <button class="mt-6 px-8 py-3 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition">Esplora i Progetti</button>
+  </header>
+
+  <!-- Portfolio Grid -->
+  <main class="py-16 px-4 max-w-7xl mx-auto">
+    <h2 class="text-3xl font-semibold text-gray-900 mb-8 text-center">I Miei Progetti</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Project Card Example -->
+      <div class="border rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/400" alt="Progetto 1" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-900">Progetto 1</h3>
+          <p class="text-gray-600 mt-2">Descrizione breve del progetto per evidenziare il valore del lavoro svolto.</p>
+        </div>
+      </div>
+      <div class="border rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/400" alt="Progetto 2" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-900">Progetto 2</h3>
+          <p class="text-gray-600 mt-2">Descrizione breve del progetto per evidenziare il valore del lavoro svolto.</p>
+        </div>
+      </div>
+      <div class="border rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/400" alt="Progetto 3" class="w-full">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-900">Progetto 3</h3>
+          <p class="text-gray-600 mt-2">Descrizione breve del progetto per evidenziare il valore del lavoro svolto.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Contact Section -->
+  <footer class="bg-gray-100 py-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-semibold text-gray-900">Contattami</h2>
+      <form class="mt-8 space-y-4">
+        <input type="text" placeholder="Nome" class="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-orange-500">
+        <input type="email" placeholder="Email" class="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-orange-500">
+        <textarea placeholder="Messaggio" class="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-orange-500"></textarea>
+        <button type="submit" class="px-6 py-3 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition">Invia</button>
+      </form>
+    </div>
+  </footer>
+
+</body>
+</html>
